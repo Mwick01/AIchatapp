@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 function App() {
-  const [model, setModel] = useState("mistralai/mistral-7b-instruct:free");
-  const [role, setRole] = useState("Student");
+  const [model, setModel] = useState("nvidia/nemotron-nano-12b-v2-vl:free");
+  const [role, setRole] = useState("General");
   const [pdfText, setPdfText] = useState("");
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
@@ -10,7 +10,8 @@ function App() {
   const [pdfName, setPdfName] = useState("");
 
   const models = [
-    //"tngtech/deepseek-r1t2-chimera:free",
+   
+    "nvidia/nemotron-nano-12b-v2-vl:free",
     "minimax/minimax-m2:free",
     "alibaba/tongyi-deepresearch-30b-a3b:free",
     "meituan/longcat-flash-chat:free",
@@ -22,8 +23,11 @@ function App() {
     "moonshotai/kimi-k2:free",
     "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
     "google/gemma-3n-e2b-it:free",
+    "tencent/hunyuan-a13b-instruct:free",
     "tngtech/deepseek-r1t2-chimera:free",
     "mistralai/mistral-small-3.2-24b-instruct:free",
+    "google/gemini-2.0-flash-exp:free",
+    "meta-llama/llama-3.3-8b-instruct:free",
   ];
 
   const roles = ["Student", "Teacher", "Researcher", "General"];
