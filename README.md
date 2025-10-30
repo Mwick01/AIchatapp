@@ -58,7 +58,7 @@ This web application is a full-stack React + Flask web app that allows:
 4. Run the frontend:
    npm run dev
 
-
+```
 ───────────────────────────────
 📡 API Endpoints
 ───────────────────────────────
