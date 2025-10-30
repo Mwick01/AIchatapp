@@ -1,4 +1,4 @@
-🧠 OpenRouter Dual-Mode Chatbot (Text + PDF Q&A)
+```🧠 OpenRouter Dual-Mode Chatbot (Text + PDF Q&A)
 
 This web application is a full-stack React + Flask web app that allows:
 - Chat normally with any OpenRouter model, or
