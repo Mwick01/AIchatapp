@@ -59,18 +59,20 @@ This web application is a full-stack React + Flask web app that allows:
    npm run dev
 
 ```
+```
 ───────────────────────────────
 📡 API Endpoints
 ───────────────────────────────
-
+```
 | Endpoint | Method | Description |
 |-----------|---------|-------------|
 | `/upload` | POST | Upload and extract text from PDF (max 100 pages). |
 | `/ask` | POST | Send question + role + (optional PDF text) to OpenRouter and return the model’s response. |
-
+```
 ───────────────────────────────
 ✅ Notes
 ───────────────────────────────
+```
 - The backend connects to OpenRouter using your API key stored in `.env`.
 - The role selector (Student, Teacher, Researcher, etc.) modifies the system prompt to tailor responses.
 - If no PDF is uploaded, the app switches to normal chat mode automatically.
